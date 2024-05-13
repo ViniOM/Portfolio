@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link class="style" rel="stylesheet" href="./style.css" />
+    <link rel="shortcut icon" type="imagex.png" href="./assets/astronauta.svg" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Krona+One&family=Kumbh+Sans:wght@300;500;600&family=Montserrat:wght@100;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Landing Page</title>
+  </head>
+  <body>
+    <header>
+      <nav class="header_nav">
+        <ul class="header_nav_ul">
+          <li><a class="header_nav_item" href="#home">Home</a></li>
+          <li><a class="header_nav_item" href="#sobreMim">Sobre</a></li>
+          <li><a class="header_nav_item" href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+      <section id="home">
+        <div class="titulo_home">
+          <h1>Bem vindo a um Novo Universo!</h1>
+          <h2>Diferentes mundos para diferentes pessoas</h2>
+          <div class="titulo_paragrafo_btn">
+            <p class="titulo_paragrafo">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+              asperiores deleniti, explicabo ullam.
+            </p>
+            <button class="titulo_btn">Explore</button>
+          </div>
+        </div>
+        <div class="titulo_home_right">
+          <img
+            src="./assets/astronauta.svg"
+            alt="Capacete de astronauta"
+            width="200"
+            height="200"
+          />
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section id="sobreMim">
+        <div class="sobreMim_img">
+          <img
+            src="./assets/eu.png"
+            alt="Foto do Dono"
+            width="200"
+            height="200"
+          />
+        </div>
+
+        <div class="sobreMim_sobre">
+          <h1>Quem sou eu</h1>
+          <div>
+            <p class="sobreMim_sobre_paragrafo">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+              asperiores deleniti, explicabo ullam. Inventore asperiores
+              deleniti, explicabo ullam. Inventore asperiores deleniti,
+              explicabo ullam.
+            </p>
+            <div class="sobreMim_sobre_buttons">
+              <a href="https://github.com/ViniOM">
+              <button class="sobreMim_sobre_btn" target="_blank">GitHub</a>
+
+              </a>
+              </button>
+
+              <h2 class="seguidores"><b>6</b> Seguidores</h2>
+              <h2 class="seguindo"><b>2</b> Seguindo</h2>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contato">
+        <div class="contato_textos">
+          <h1>Me contate</h1>
+          <div class="contato_paragrafo">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+              asperiores deleniti, explicabo ullam, ratione blanditiis
+              similique, nobis laborum sunt pariatur deserunt! Saepe error dolor
+              expedita dignissimos illum natus dolorum commodi.
+            </p>
+          </div>
+
+          <div class="contato_icones">
+            <a href="https://github.com/ViniOM" target="_blank">
+              <img src="./assets/github.svg" alt="Icone do GitHub" />
+            </a>
+            <a href="https://www.instagram.com/v1ni.kk" target="_blank">
+              <img src="./assets/instagram.svg" alt="Icone do Instagram" />
+            </a>
+            <a href="https://www.linkedin.com/in/ViniOM" target="_blank">
+              <img src="./assets/linkedin.svg" alt="Icone do Linkedin" />
+            </a>
+          </div>
+        </div>
+
+        <div class="contato_formulario">
+          <form class="contato_formulario_form">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="assunto">Assunto:</label>
+            <input type="text" id="assunto" name="assunto" required />
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea
+              id="mensagem"
+              rows="3"
+              name="mensagem"
+              rows="4"
+              required
+            ></textarea>
+
+            <button type="submit">Enviar</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Desenvolvido com ❤️ por Vinicios Gabriel</p>
+    </footer>
+  </body>
+</html>
